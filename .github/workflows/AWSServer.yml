@@ -17,3 +17,6 @@ jobs:
 
         - name: install depandencies
           run: npm install 
+
+        - name: Deploy to AWS Server
+          run: pm2 start src/index.js
