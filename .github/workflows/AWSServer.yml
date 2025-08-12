@@ -18,5 +18,11 @@ jobs:
         - name: install depandencies
           run: npm install 
 
+        - name: "install pm2 globally"
+          run: npm install pm2 -g
+
+        - name: run tests
+          run: npm test
+
         - name: Deploy to AWS Server
           run: pm2 start src/index.js
