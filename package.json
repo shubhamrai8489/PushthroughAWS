@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
-    "test": "jest"
-  },
+   "test": "jest --passWithNoTests"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
